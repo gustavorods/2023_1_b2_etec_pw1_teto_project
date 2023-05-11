@@ -10,7 +10,8 @@ body {
     background: rgb(232,236,239);
     background: linear-gradient(83deg, rgba(232,236,239,1) 0%, rgba(214,222,225,1) 100%);
     padding-top: 15px;
-    padding-left: 35px;
+    padding-left: 30px;
+    margin-left: 35px;
     margin: 0 auto;
     color: black;
     font-family: 'Montserrat', sans-serif;
@@ -73,7 +74,7 @@ img {
 }
 
 form {
-    margin-top: 45px;
+    margin-top: 35px;
     display: flex;
     flex-direction: column;
 }
@@ -98,7 +99,7 @@ input{
 #confirma {
     width: 150px;
     height: 40px;
-    margin-top: 7px;
+    margin-top: 10px;
     border-radius: 20px;
     border: 1px solid black;
     background-color: rgb(232,236,239);
@@ -108,4 +109,5 @@ input{
     background-color: black;
     color: white;
     transition: 0.5s;
+    transform: scale(1.1);
 }
