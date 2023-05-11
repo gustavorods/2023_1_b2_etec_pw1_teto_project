@@ -24,7 +24,7 @@ body {
     text-align: center;
     background-color: white;
     padding: 30px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .card:hover {
@@ -40,6 +40,12 @@ button {
     cursor: pointer;
     font-size: 80%;
     margin-top: 15px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .icon {
@@ -52,5 +58,25 @@ img {
     height: 100%;
 }
 
+.icones {
+    height: 20px;
+    width: 20px;
+}
+
+#spotify {
+    background-color: #1ed760;
+}
+#spotify:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#youtube {
+    background-color: #f9051b;
+}
+#youtube:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 
 
