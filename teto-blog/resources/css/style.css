@@ -3,7 +3,8 @@
     src: url('/src/font/Sunday Gallery.otf') format('opentype');
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,900&display=swap');
 
 body {
     background: rgb(232,236,239);
@@ -58,12 +59,15 @@ h1 {
     margin-bottom: 0px;
 }
 p {
-    font-size: 17.3px;
+    font-size: 18px;
     letter-spacing: 0.5px;
     line-height: 30px;
+    width: 530px;
+    padding-top: 10px;
+    
 }
 img {
-    width: 900px;
+    width: 770px;
     height: 561px;
 
 }
