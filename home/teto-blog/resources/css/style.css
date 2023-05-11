@@ -1,6 +1,6 @@
 @font-face {
     font-family:'cursiva';
-    src: url('/src/font/Sunday Gallery.otf') format('opentype');
+    src: url('/home/src/home/font/Sunday Gallery.otf') format('opentype');
 }
 
 
@@ -58,13 +58,14 @@ h1 {
     font-family: 'cursiva', Helvetica, sans-serif;
     font-size: 90px;
     margin-bottom: 0px;
+    letter-spacing: 10px;
 }
 p {
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 0.5px;
     line-height: 30px;
     width: 530px;
-    padding-top: 10px;
+    padding-top: 2px;
     
 }
 img {
@@ -74,7 +75,7 @@ img {
 }
 
 form {
-    margin-top: 35px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -84,7 +85,7 @@ input{
 }
 #name {
     width: 330px;
-    height: 40px;
+    height: 42px;
     border-radius: 20px;
     border: 1px solid black;
     background-color: rgb(232,236,239);
@@ -92,17 +93,18 @@ input{
 
 #name:focus{
     border: 0.5px solid black;
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.5s;
 }
 
 #confirma {
     width: 150px;
-    height: 40px;
+    height: 42px;
     margin-top: 10px;
     border-radius: 20px;
     border: 1px solid black;
     background-color: rgb(232,236,239);
+    cursor: pointer;
 }
 
 #confirma:hover {
