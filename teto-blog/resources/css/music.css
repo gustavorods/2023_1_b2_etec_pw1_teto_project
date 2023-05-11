@@ -25,10 +25,13 @@ body {
     background-color: white;
     padding: 30px;
     border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 17px 7px rgba(0,0,0,0.43);
+    -moz-box-shadow: 3px 3px 17px 7px rgba(0,0,0,0.43);
+    box-shadow: 3px 3px 17px 7px rgba(0,0,0,0.43);
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.5s;
 }
 
@@ -67,7 +70,7 @@ img {
     background-color: #1ed760;
 }
 #spotify:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.5s;
 }
 
@@ -75,7 +78,7 @@ img {
     background-color: #f9051b;
 }
 #youtube:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.5s;
 }
 
