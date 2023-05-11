@@ -20,6 +20,26 @@ body {
 .card {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    margin-top: 15px;
 }
 
 .icon {
