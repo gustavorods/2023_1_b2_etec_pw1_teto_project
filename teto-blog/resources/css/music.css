@@ -79,4 +79,10 @@ img {
     transition: 0.5s;
 }
 
+h3 {
+    margin-bottom: 0px;
+}
 
+span {
+    margin-bottom: 10px;
+}
