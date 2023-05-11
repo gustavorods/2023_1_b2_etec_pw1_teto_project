@@ -64,11 +64,12 @@ p {
 }
 img {
     width: 900px;
-    height: 556px;
+    height: 561px;
 
 }
 
 form {
+    margin-top: 45px;
     display: flex;
     flex-direction: column;
 }
@@ -87,5 +88,20 @@ input{
 #name:focus{
     border: 0.5px solid black;
     transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#confirma {
+    width: 150px;
+    height: 40px;
+    margin-top: 7px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: rgb(232,236,239);
+}
+
+#confirma:hover {
+    background-color: black;
+    color: white;
     transition: 0.5s;
 }
