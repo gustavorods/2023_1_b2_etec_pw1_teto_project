@@ -9,12 +9,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin: 0;
 
     color: #434343;
 }
+ 
 
 .cards { 
     display: flex;
+    
 }
 
 .card {
@@ -22,8 +26,9 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-right: 30px;
     background-color: white;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     -webkit-box-shadow: 3px 3px 17px 7px rgba(0,0,0,0.43);
     -moz-box-shadow: 3px 3px 17px 7px rgba(0,0,0,0.43);
@@ -39,6 +44,10 @@ body {
 .icon {
     width: 150px;
     height: 150px;
+}
+.icon:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
 }
 
 img {
