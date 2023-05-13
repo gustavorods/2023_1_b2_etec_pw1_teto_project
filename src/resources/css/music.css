@@ -78,7 +78,13 @@ a {
 a:hover {
     width: 110px;
     background-color: #1ed760;
-    color: black;
+     color: black;
+    border-radius: 20px;
+}
+.youtube:hover {
+    width: 110px;
+    background-color: #f9051b;
+    color: white;
     border-radius: 20px;
 }
 
