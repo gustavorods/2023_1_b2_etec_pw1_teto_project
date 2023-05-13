@@ -69,7 +69,7 @@ span {
     margin-bottom: 10px;
 }
 
-a {
+#botao  {
     width: 45px;
     height: 38px;
     display: flex;
@@ -84,10 +84,15 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+#botao:hover {
+    width: 110px;
+    border-radius: 20px;
+}
+
+.spotify:hover {
     width: 110px;
     background-color: #1ed760;
-     color: black;
+    color: black;
     border-radius: 20px;
 }
 .youtube:hover {
@@ -97,9 +102,6 @@ a:hover {
     border-radius: 20px;
 }
 
-navbar p {
-    transform: translate(60px);
-}  
 
 .icon-s {
  
