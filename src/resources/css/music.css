@@ -60,9 +60,9 @@ span {
     margin-bottom: 10px;
 }
 
-.box {
-    width: 40px;
-    height: 40px;
+a {
+    width: 45px;
+    height: 38px;
     display: flex;
     align-items: center;
     padding: 5px;
@@ -72,22 +72,30 @@ span {
     cursor: pointer;
     transition: all 0.5s ease;
     color: white;
+    text-decoration: none;
 }
 
-.box:hover {
-    width: 100px;
+a:hover {
+    width: 110px;
     background-color: #1ed760;
     color: black;
     border-radius: 20px;
 }
-span:hover {
-    margin-right: 10px;
-}
+
 navbar p {
     transform: translate(60px);
 }  
 
 .icon-s {
-    position: absolute;
-    width: 50px;
+ 
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+    transition: all .4s ease;
 }
+
