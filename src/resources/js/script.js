@@ -6,7 +6,3 @@ function ola(nome) {
     alert(`OK ${name}, anotamos seu nome!`)
 }
 
-//musicas
-function music() {
-    alert(`Vamos ver as musicas dele!`)
-}
