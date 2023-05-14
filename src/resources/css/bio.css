@@ -6,27 +6,32 @@
 }
 
 body {
-    background-color: rgb(232,236,239);
+    background: url('/src/resources/images/bio/back.jpg');
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: black;
+    
 }
 
  .glass {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 0px;
-    height: 610px;
-    width: 100vw;
+    padding-top: 5px;
+    height: 590px;
+    width: 1300px;
 
+    background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
 }
 
 h1 {
-    color: black;
+    color: #efefef;
     font-family: 'cursiva', sans-serif;
     margin-bottom: 0;
     font-family: 'cursiva', Helvetica, sans-serif;
@@ -37,13 +42,13 @@ h1 {
 }
 h3 {
     margin-top: 0;
-    color: black;
+    color: #efefef;
 }
 
 p {
     margin-left: 50px;
     margin-right: 50px;
-    color: black;
+    color: #ffffff;
 } 
 
 /*HEADER*/
@@ -67,7 +72,7 @@ li:hover {
 
 header a {
     text-decoration: none;
-    color: black;
+    color: white;
 
 }
 
