@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url('/src/resources/images/bio/back.jpg');
+    background: url('/src/resources/images/bio/back.jpg'); 
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
@@ -20,36 +20,42 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 5px;
-    height: 590px;
+    height: 630px;
     width: 1300px;
 
     background: rgba( 255, 255, 255, 0.1 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
 }
 
 h1 {
-    color: #efefef;
+    color: rgb(255, 253, 253);
+
     font-family: 'cursiva', sans-serif;
     margin-bottom: 0;
     font-family: 'cursiva', Helvetica, sans-serif;
     font-size: 90px;
     margin-bottom: 0px;
-    margin-top: 5px;
+    margin-top: 35px;
     letter-spacing: 10px;
 }
 h3 {
     margin-top: 0;
-    color: #efefef;
+    color: rgb(255, 253, 253);
+
 }
 
 p {
     margin-left: 50px;
     margin-right: 50px;
-    color: #ffffff;
+    color: rgb(255, 253, 253);
 } 
+
+main {
+    padding-top: 25px;
+}
 
 /*HEADER*/
 header ul {
@@ -72,7 +78,7 @@ li:hover {
 
 header a {
     text-decoration: none;
-    color: white;
+    color: black;
 
 }
 
@@ -90,3 +96,4 @@ a li span {
 header {
     height: 80px;
 }
+
