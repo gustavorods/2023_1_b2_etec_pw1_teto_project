@@ -6,7 +6,8 @@
 }
 
 body {
-    background: url('/src/resources/images/bio/back.jpg'); 
+    /* background: url('/src/resources/images/bio/back.jpg');  */
+    background-color: rgb(232,236,239);;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
@@ -19,43 +20,39 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 5px;
-    height: 630px;
+    padding: 15px;
+    margin: 0;
+    height: 100%;
     width: 1300px;
 
-    background: rgba( 255, 255, 255, 0.1 );
+    background: rgba( 232, 236, 239, 0.4 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
     border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-
-h1 {
-    color: rgb(255, 253, 253);
-
-    font-family: 'cursiva', sans-serif;
-    margin-bottom: 0;
-    font-family: 'cursiva', Helvetica, sans-serif;
-    font-size: 90px;
-    margin-bottom: 0px;
-    margin-top: 35px;
-    letter-spacing: 10px;
-}
-h3 {
-    margin-top: 0;
-    color: rgb(255, 253, 253);
-
-}
-
-p {
-    margin-left: 50px;
-    margin-right: 50px;
-    color: rgb(255, 253, 253);
-} 
 
 main {
-    padding-top: 25px;
+
+    display: flex;
+
 }
+
+.texto {
+    max-width: 920px;
+    margin-left: 15px;
+}
+
+ansaide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+
+
 
 /*HEADER*/
 header ul {
