@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/resources/css/style.css">
-    <title>Projeto teto</title>
+    <link rel="stylesheet" href="/src/resources/css/premiacoes.css">
+    <title>premiações</title>
 </head>
 <body>
+    
     <header>
 
         <ul>
@@ -17,7 +18,7 @@
                     <img 
                     src="/src/resources/icons/music/icons/icons8-casa-32.png" 
                     alt="Ícone do livro" 
-                    class="icones">  
+                    class="iconess">  
 
                     Home
                 </li>
@@ -29,7 +30,7 @@
                     <img 
                     src="/src/resources/icons/home/header/icons8-livro-32.png" 
                     alt="Ícone do livro" 
-                    class="icones">  
+                    class="iconess">  
 
                     História
                 </li>
@@ -41,7 +42,7 @@
                     <img 
                     src="/src/resources/icons/home/header/icons8-fones-de-ouvido-16.png" 
                     alt="Ícone de fone" 
-                    class="icones">  
+                    class="iconess">  
                     
                     Música
                 </li>
@@ -54,9 +55,9 @@
                     <img 
                     src="/src/resources/icons/home/header/icons8-troféu-48.png" 
                     alt="Ícone de troféu" 
-                    class="icones">  
+                    class="iconess">  
                     
-                    Prêmio
+                    <span>Prêmio</span>
                 </li>
             </a> 
             <!--<a target="_blank" href="https://icons8.com/icon/6YtrB5VnlPqY/trof%C3%A9u">Troféu</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>-->
@@ -67,7 +68,7 @@
                     <img 
                     src="/src/resources/icons/home/header/icons8-câmera-24.png" 
                     alt="Ícone de fotos" 
-                    class="icones">  
+                    class="iconess">  
                     
                     Fotos
                 </li>
@@ -80,7 +81,7 @@
                     <img 
                     src="/src/resources/icons/home/header/icons8-microfone-2-32.png" 
                     alt="Ícone de microfone" 
-                    class="icones">  
+                    class="iconess">  
                     
                     Shows
                 </li>
@@ -93,7 +94,7 @@
                     <img 
                     src="/src/resources/icons/home/header/icons8-chamada-de-vídeo-32.png" 
                     alt="Ícone de camera gravadora" 
-                    class="icones">
+                    class="iconess">
 
                     Vídeos
                 </li>
@@ -103,41 +104,74 @@
         </ul>
     </header>
 
-    <main>
+    <!--Título-->
+    <h1>Prêmios</h1>
 
-        <ansaide>
-            <h1>TETO</h1>
+    <!--Prêmios-->
+    <div 
+    class="premios">
 
-            <p>Conhecido como "Rei das prévias". Teto é um cantor baiano que ao passar dos
-             anos vem conquistando cada vez mais fama pelas suas músicas do gênero trap.</p>
-                
-            <form>
+        <!--1° coluna-->
+        <div 
+        class="primeira-coluna">
 
-                <input 
-                type="text" 
-                placeholder="   Antes de tudo, qual é o seu nome?" 
-                name="nome" 
-                id="name">
+            <div 
+            class="itens"> 
+                <b>MTV MIAW · 2022</b>
+                <p>Hino do Ano ("VAMPIRO" - Matuê, Teto e WIU)</p>
+                <span 
+                class="indicado">Indicado</span>
+            </div>
 
-                <input 
-                type="button" 
-                value="Esse é meu nome!" 
-                name="confirma-nome" 
-                id="confirma" 
-                onclick="ola(nome)">
+            <div 
+            class="itens">
+                <b>MTV MIAW · 2022</b>
+                <p>Feat. Nacional ("VAMPIRO" - Matuê, Teto e WIU)</p>
+                <span 
+                class="indicado">Indicado</span>
+            </div>
 
-            </form>
-        </ansaide>
+            <div 
+            class="itens">
+                <b>MTV MIAW · 2022</b>
+                <p>Trap na Cena (Teto)</p>
+                <span 
+                class="indicado">Indicado</span>
+            </div>
 
-        <img 
-        src="/src/resources/images/home/img/zyro-image.png" 
-        alt="foto do teto">
+        </div>
 
-    </main>
 
-<script 
-    src="/src/resources/js/script.js">
-</script>
+        <!--2° coluna-->
+        <div 
+        class="segunda-coluna">
 
+            <div 
+            class="itens"> 
+                <b>Prêmio Rap Forte · 2021</b>
+                <p>Hit do Ano</p>
+                <span 
+                class="indicado">Indicado</span>
+            </div>
+
+            <div 
+            class="itens">
+                <b>Prêmio Rap Forte · 2021</b>
+                <p>Revelação</p>
+                <span 
+                class="indicado">Indicado</span>
+            </div>
+
+            <div 
+            class="itens">
+                <b>	Prêmio Verov · 2021</b>
+                <p>	Revelação</p>
+                <span 
+                class="vencedor">Vencedor</span>
+            </div>
+
+        </div>
+
+    </div>
 </body>
 </html>

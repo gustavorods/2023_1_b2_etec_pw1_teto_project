@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    color: black;
+    font-family: 'poppins' ,sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*HEADER*/
+header ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+}
+
+li {
+    padding-right: 50px;
+    font-size: 17px;
+}
+li:hover {
+    transform: scale(1.2);
+    transition: 0.5s all;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.iconess {
+    width: 17px;
+    height: 17px;
+    padding-top: 1px;
+}
+
+a li span {
+    text-decoration: underline;
+}
+
+header {
+    height: 80px;
+}
+
+/*Colunas */
+
+.premios {
+    display: flex;
+}
+
+.primeira-coluna {
+    margin-right: 15px;
+}
+
+.itens {
+    margin: 15px;
+    width: 400px;
+    padding: 10px;
+    background: rgba(236, 239, 241, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.itens:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+b, p, span {
+    margin: 0px;
+}
+
+.indicado {
+    color: red
+}
+.vencedor {
+    color: green;
+}
