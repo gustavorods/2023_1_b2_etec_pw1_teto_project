@@ -32,6 +32,8 @@ body {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+
+
 main {
 
     display: flex;
@@ -61,6 +63,7 @@ ansaide {
     margin: 0.6rem;
     position: relative;
     
+    border-radius: 20px;
     cursor: pointer;
     transition: all 0.5s ease;
     color: rgb(232,236,239);
@@ -69,6 +72,11 @@ ansaide {
 
 .box a:hover {
     width: 120px;
+    border-radius: 20px;
+}
+
+.box:first-child a:hover{
+    width: 126px;
     border-radius: 20px;
 }
 
@@ -111,13 +119,17 @@ ansaide {
 }
 
 .img-ttw {
-    height: 33px;
+    height: 32px;
     width: 35px;
 }
 
 .img-insta {
-    height: 28px;
-    width: 30px;
+    height: 33px;
+    width: 37px;
+}
+
+.box:first-child {
+    margin-right: 25px;
 }
 
 
@@ -136,6 +148,7 @@ h3 {
 .botoes {
     padding-top: 20%;
     display: flex;
+
 }
 
 
