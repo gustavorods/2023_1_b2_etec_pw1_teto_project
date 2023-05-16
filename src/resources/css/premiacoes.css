@@ -62,8 +62,9 @@ header {
     margin: 15px;
     width: 400px;
     padding: 10px;
-    background: rgba(236, 239, 241, 0.4);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+    background: rgba(243, 246, 247, 0.4);
+    box-shadow: 0 1px 20px 0 rgba(16, 16, 16, 0.37);
     backdrop-filter: blur( 11.5px );
     -webkit-backdrop-filter: blur( 11.5px );
     border-radius: 10px;
