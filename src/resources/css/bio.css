@@ -6,7 +6,6 @@
 }
 
 body {
-    /* background: url('/src/resources/images/bio/back.jpg');  */
     background-color: rgb(232,236,239);;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -52,6 +51,86 @@ ansaide {
     border-right: 2px solid black;
 }
 
+.box a  {
+    width: 45px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    
+    cursor: pointer;
+    transition: all 0.5s ease;
+    color: rgb(232,236,239);
+    text-decoration: none;
+}
+
+.box a:hover {
+    width: 120px;
+    border-radius: 20px;
+}
+
+.instagram:hover {
+    width: 110px;
+    transition: 0.5s;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: white;
+    border-radius: 20px;
+}
+
+
+.twitter:hover {
+    width: 110px;
+    transition: 0.5s;
+    background: #027dd5; 
+    color: white;
+    border-radius: 20px;
+}
+
+.icon-s {
+ 
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+    transition: all .4s ease;
+}
+
+#icone-do-insta {
+    margin-right: 3px;
+}
+
+.img-ttw {
+    height: 33px;
+    width: 35px;
+}
+
+.img-insta {
+    height: 28px;
+    width: 30px;
+}
+
+
+ansaide h1 {
+    font-family: 'cursiva', sans-serif;
+    font-size: 70px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    margin: 0;
+}
 
 
 /*HEADER*/
