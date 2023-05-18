@@ -49,20 +49,20 @@ header {
     height: 80px;
 }
 
-/*Colunas */
+.titulo h1 {
+    margin: 0px;
+}
 
-.premios {
+/*video*/
+
+.video {
+    margin-top: 35px;
     display: flex;
-}
-
-.primeira-coluna {
-    margin-right: 15px;
-}
-
-.itens {
-    margin: 15px;
-    width: 400px;
-    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 700px;
+    height: 400px;
 
     background: rgba(243, 246, 247, 0.4);
     box-shadow: 0 1px 20px 0 rgba(16, 16, 16, 0.37);
@@ -72,18 +72,8 @@ header {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-.itens:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
 
-b, p, span {
+.video h1 {
     margin: 0px;
-}
-
-.indicado {
-    color: red
-}
-.vencedor {
-    color: green;
+    margin-bottom: 20px;
 }
