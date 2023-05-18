@@ -2,33 +2,136 @@
 
 body {
     font-family: 'poppins', sans-serif;
-    color: #dadada;
+    color: white;
+    background-color: rgb(232,236,239);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*HEADER*/
+header ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+}
+
+li {
+    padding-right: 50px;
+    font-size: 17px;
+}
+li:hover {
+    transform: scale(1.2);
+    transition: 0.5s all;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.iconess {
+    width: 17px;
+    height: 17px;
+    padding-top: 1px;
+}
+
+a li span {
+    text-decoration: underline;
+}
+
+header {
+    height: 80px;
+}
+
+/*cards*/
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
 }
 
 .main {
     display: flex;
-    width: 340px;
-    height: 150px;
+    width: 87px;
+    height: 100px;
     background-color: #121212;
+    color: rgb(232,236,239);
     padding: 15px;
     border-radius: 10px;
+}
+.main:hover {
+    width: 340px;
+    height: 105px;
+    transition: 0.5s;
+}
+
+.main:nth-child(2):hover {
+        width: 350px;
+        height: 119px;
+        transition: 0.5s;
+}
+
+
+.main:nth-child(3):hover {
+    width: 340px;
+    height: 119px;
+    transition: 0.5s;
+}
+
+.main:nth-child(4):hover {
+    width: 340px;
+    height: 119px;
+    transition: 0.5s;
 }
 
 .capa {
     padding: 10px;
     display: flex;
     align-items: center;
-    margin-right: 100px;
+    justify-content: center;
     background-color: #292929;
     border-radius: 10px;   
-    width: 100px;
+    width: 120px;
 }
 
 
 .descricao {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
 
+p {
+    margin: 0;
+    font-size: 25px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+a { 
+    color: rgb(232,236,239);
     font-size: 15px;
+}
+
+span {
+    margin-bottom: 10px;
+}
+
+.infos {
+    margin-bottom: 3px;
+    margin-top: 3px;
 }
 
